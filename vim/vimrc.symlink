@@ -3,7 +3,7 @@
 "or just 'za'
 " Looks and Colorscheme {{{
 syntax on           "Creates better highlighting
-colorscheme delek "Uses the very nice looking 'molokai' thee
+colorscheme koehler "Uses the very nice looking 'molokai' thee
 " }}}
 "Layout of the actual editor {{{
 set cursorline      " Show location of cursor using a horizontal line
@@ -57,6 +57,8 @@ set smartcase       " Even with ignore case, still try to be smart about it
 let mapleader=" "
 " Invert number on the left, (make them go away, or come back)
 nnoremap <silent> <leader>n :set invnumber<CR>
+" Remaps..... za as default 
+nnoremap <leader><space> za
 " For lines longer then the screens width, treat them as seperate lines
 map j gj
 map k gk
